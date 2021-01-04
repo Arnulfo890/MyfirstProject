@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sans serif';
+}
+
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/home.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: 10vh;
+    background: #2c2626;
+    opacity: 0.8;
+
+}
+
+.nav_links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.nav_links ul li a
+{
+    text-decoration: none;
+    color: #fff5f5;
+    transition: 500ms ease-out;
+}
+
+.logo
+{
+    font-family: 'Holtwood One SC';
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.btn 
+{
+    text-decoration: none;
+    color: #fff5f5;
+    border: 1px solid;
+    padding: 10px 25px; 
+    border-radius: 50px;
+    transition: 500ms ease-out;
+}
+
+.btn:hover
+{
+    background-color: rgb(71, 40, 40);
+}
+
+.banner
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    height: -50%;
+}
+
+.banner h1
+{
+    font-family: 'Poppins';
+    background: linear-gradient(to top, rgb(241, 248, 248), rgb(177, 192, 197), rgb(29, 31, 48));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.buttons
+{
+    width: 100%;
+    height: 100%;
+}
+.buttons ul
+{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.buttons ul li 
+{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+
+.buttons ul li a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff5f5;
+    border: 1px solid;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 500ms ease-out;
+    text-transform: capitalize;
+}
+
+.buttons ul li a:hover
+{
+    background: #fff5f5;
+    color: #000000;
+}
